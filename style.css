@@ -1,0 +1,3270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+@font-face {
+    font-family: Azure;
+    src: url('./font/mwfmdl2-v3.54.woff');
+}
+footer{
+    background-color: rgb(242,242,242);
+}
+.fixedmain{
+    padding-left: 1px;
+}
+.fixedh2{
+    color:rgb(0, 85, 151);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    letter-spacing: -0.42px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.headernews{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#customersss{
+   padding: 0px;
+}
+#prohais{
+    display: none;
+}
+#Partners{
+    display: none;
+}
+#Pricing{
+    display: none;
+}
+#Solutions{
+    display: none;
+}
+.normalasure{
+    display: none;
+}
+.signin{
+    display: none;
+}
+.producttags1{
+    display: none;
+}
+.theonlys{
+    display: none;
+}
+.chatmain{
+    display: none;
+}
+.thehouse{
+    display: none;
+}
+.tabfeatures{
+    display: none;
+}
+#thetoptwo{
+    display: none;
+}
+
+.newheader{
+    display: none;
+}
+@font-face {
+    font-family: Azurem;
+    src: url("./fonts/Azure-B.woff2");
+}
+@font-face {
+    font-family: Mazure;
+    src: url("./fonts/normal.woff2");
+}
+
+@font-face {
+    font-family: "news";
+    src: url("https://db.onlinewebfonts.com/t/ba047a29b78bffd9a985b2e86b289fe8.eot");
+    src: url("https://db.onlinewebfonts.com/t/ba047a29b78bffd9a985b2e86b289fe8.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ba047a29b78bffd9a985b2e86b289fe8.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ba047a29b78bffd9a985b2e86b289fe8.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/ba047a29b78bffd9a985b2e86b289fe8.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ba047a29b78bffd9a985b2e86b289fe8.svg#MWF MDL2 Assets")
+      format("svg");
+
+}
+#Resources{
+    display: none;
+}
+.navs{
+    margin: 2px 0px;
+    padding-bottom: 3.5px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+.button1{
+    margin: 1px ;  
+    margin-left: 2px;
+    margin-bottom: -1px;
+    padding: 7px 0px 7px 0px;
+    width: 48px ;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button1::before{
+    font-family:news;
+    content: "";
+   
+    font-size: 20px;
+    margin-left: -2px;
+    margin-top: -3px;
+    font-size: 20px;
+    line-height: 20px;          
+}
+.iconsearch{
+    width: 34px ;
+    height: 42px;
+    padding: 7px 10px 8px 7px;
+    margin-left: 1px;
+    margin-right: 8px;
+    display: flex;
+    align-items: center;  
+}
+.iconsearch::after{
+    font-family: Azure;
+    content: "";
+    font-size: 16px;
+    margin-top: 1px;
+    line-height: 15px;
+    display: flex;
+    align-items: flex-end;
+    height: 18px;
+
+}  
+.microimg{
+    width: 100%;
+    display: flex;
+    position: absolute; 
+    justify-content: center;
+    align-items: center;    
+}
+.microimg img{
+    height: 23px;
+    width: 108px;
+    margin-top: -5px;
+    margin-left: -2px;
+}
+.azure{
+    margin-top: -1px;
+    display: flex;
+    height: 32px;
+    align-items: center;
+}
+.themain{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/386597-mobile-interactive-demo-resources-by-role-bg-360x719?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1438&qlt=100&fmt=png-alpha&fit=constrain");
+    background-size: cover;
+    background-position: center;
+}
+.azuresub{
+    display: flex;
+    font-family: Azurem;
+    margin: 1px;
+    margin-top: -1px;
+    padding: 1px 16px 0px 15px;
+    font-size: 15px;
+    font-weight: 600;
+}   
+.arrows{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 19px;
+    height: 12px;
+    padding-left: 7px;
+}
+.arrows::after{
+    content: "";
+    margin-bottom: -12px;
+    font-family: Azure;
+    font-size: 12px;
+    height: 12px;  
+    margin-left: 4px;
+    width: 8px;
+    margin-top: -1px;
+}  
+.bannerimg1{
+   width: 100%;
+   padding: 1px;
+ 
+}
+.bannerimg1 img{   
+          
+    width: 100%;
+    object-fit: cover;
+}
+.mainbanner{
+    padding: 0px 16px;
+    padding-bottom: 39px;
+    border-bottom:1px solid #e6e6e6
+}
+.rows{
+    margin-top: 32px;
+    
+    padding-bottom: 56px;
+}
+.limit{
+    font-family: Azurem;
+    font-size: 12px;
+    margin-bottom: 12px;
+    letter-spacing: 0.96px;
+    line-height: 16px;
+    color: rgb(23,37, 61);
+}
+#nohideview{
+    display: none;
+}
+.yourai h1{
+  
+    font-family: Azurem;
+    font-size: 32px;
+    letter-spacing: -1.6px;
+    line-height: 40px;
+    color: rgb(14,23, 38);
+}
+.makeyou{
+    margin-top: 16px;
+    padding-right: 16px;
+    font-weight: 400;
+    font-family: Mazure;
+    font-size: 18px;
+    color: rgb(23,37, 67);
+    letter-spacing: -0.54px;
+    line-height: 28px;
+}
+.getbnt{
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.getstart{
+    padding: 12px;
+    background-color: rgb(0, 120, 212);
+    border: 1.8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 51.1px;
+}
+.getstart span{
+    padding-bottom: 2px;
+    font-family: Azurem;
+    font-size: 15px;
+    color: rgb(255,255, 255);
+    letter-spacing: -0.3px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.explores{
+    padding: 12px;
+    border: 1.8px solid rgb(23,37,61);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 51.1px;
+}
+.explores span{
+    padding-bottom: 2px;
+    font-family: Azurem;
+    font-size: 15px;
+    color: rgb(0, 66, 117);
+    letter-spacing: -0.3px;
+    line-height: 22px;
+    text-align: center;
+}
+.featured{
+    width: 100%;
+    margin-top: 4px;
+    padding: 12px;
+    padding-left:16px ;
+    padding-bottom: 17px;
+    padding-right: 16px;
+    border-bottom: 4px solid rgb(23, 37, 61) ;
+}
+.tfeature{
+    display: flex;
+    gap: 8px;
+    color:rgb(0, 103, 184);
+    align-items: center;
+    font-family: Azurem;
+    font-size: 16px;
+    letter-spacing: -0.48px;
+    line-height: 22px;
+    text-align: center;
+    justify-content: space-between;
+}
+.tfeature span{
+    width: 15.53px;
+    height: 24px;
+}
+.tfeature span::before{
+    color:  rgb(0, 120, 212);
+    font-family: Azure;
+    content: "";
+    font-size: 13px; 
+}
+
+.fnews{
+    color:rgb(0, 66, 117);
+    font-family: Azurem;
+    font-size: 14px;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+    display: flex;
+    transform: translateY(1px);  
+}
+.imagebanner{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/386597-mobile-3-up-media-card-featured-news-bg-360x1349?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=2643&qlt=100&fmt=png-alpha&fit=constrain");
+    width: 100%;
+    object-fit: cover;
+    padding: 56px 20px 0px 20px;    
+}   
+.headh1{
+    font-family: Azurem;
+    font-size: 12px;
+    margin-bottom: 12px;
+    letter-spacing: 0.96px;
+    line-height: 16px;
+    color: rgb(23,37, 61);
+    
+}
+#headcontainer2{
+    margin-left: -4px;
+}
+.headh2{
+    
+    font-family: Azurem;
+    font-size: 24px;
+    
+    letter-spacing: -1.2px;
+    line-height: 32px;
+    color: rgb(14,23, 38);
+}
+.container{
+    padding-bottom: 56px;
+}
+.containernews{
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+    gap: 8px;
+} 
+.newscontent{
+    background-color: rgb(255,255, 255);
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+}
+.imgnews{
+    padding: 8px 8px 0px 8px;
+    
+}
+.imgnews img{
+    width: 100%;
+    border-radius: 8px;
+}
+.subject{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+.submain{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.subh1{
+    padding-top: 4px;
+    font-family: Azurem;
+    font-size: 18px;
+    letter-spacing: -0.54px;
+    line-height: 24px;
+    color: rgb(14, 23, 38);
+}
+.subh2{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 400;
+        font-size: 16px;
+        text-align-last: start;
+        text-align: left;
+        letter-spacing: -0.48px;
+        line-height: 24px;
+        color:rgb(23, 37, 61) ;
+}
+.readblog{
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.readarrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(0, 109, 193) ;
+    border-radius: 8px;
+    border: 1.8px;
+    width:33.8px ;
+    padding: 8px;
+    height: 34.2;
+}
+.readarrow span::before{
+    font-family: Azure;
+    content: '';
+    color: rgb(255,255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    
+    height: 15px;
+    margin-left: 2px;
+    margin-top: 4px;
+    line-height: 15px;
+}
+.readh1{
+    color: rgb(0, 66, 117);
+    font-family: Azurem;
+    font-size: 14px;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+    margin-top: -1px;
+    padding-bottom: 2px;
+}
+.solutions{
+    padding: 56px 0px;
+}
+.mainsolutions{
+    padding: 0px 16px;
+}
+.subrows{
+    display: flex;
+    align-items: center;
+    padding: 0px 16px;
+    margin-top: 24px;
+}
+.buttonsub{
+    display: inline-block;
+    padding: 9px 16px;
+    margin-right: 8px;
+    background-color: rgb(0, 85, 151);
+    border-radius: 200px;
+    
+}
+.scroller1{
+    padding-left: 4px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    overflow-x: scroll;
+}
+.scroller1::-webkit-scrollbar{
+    display: none;
+} 
+.buttonsub span{
+    font-family: Azurem;
+    font-size: 15px;
+    white-space: nowrap;
+    letter-spacing: -0.3px;
+    line-height: 22px;
+    
+    color: rgb(255,255, 255);
+    
+}
+.buttonsub2{
+    display: inline-block;
+    padding: 9px 16px;
+    margin-right: 8px;
+    background-color: rgb(0, 85, 151,0.1); 
+    border-radius: 200px;
+    
+}
+.buttonsub2 span{
+    font-family: Azurem;
+    font-size: 15px;
+    white-space: nowrap;
+    letter-spacing: -0.3px;
+    line-height: 22px;
+    color: rgb(0, 66, 117);
+}
+.arrowleft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    margin-right: -4px;
+    border: 1.6px solid rgb(0, 66, 117);
+    border-radius: 50%;
+    background-image: linear-gradient(90deg, rgba(237, 218, 218, 0) 25%, rgba(242, 242, 242, 1) 100%);
+}
+.arrowleft span::after{
+    color:  rgb(0, 66, 117);;
+    font-family: Azure;
+    content: "";
+    font-size: 12px;
+}
+.data{
+    padding: 0px 20px 0px 20px;  
+}
+.datas{
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-bottom: 56px;
+}
+.data1{
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.54px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+.data1 span::before{
+    font-family: Azure;
+    content: "";
+    font-size: 11px; 
+}
+.data2{
+  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.54px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+    justify-content: space-between;
+}
+.data2 span{
+    transform: rotate(180deg);
+}
+.data2 span::before{
+    font-family: Azure;
+    content: "";
+    font-size: 11px; 
+}
+
+.dataanalytics{
+  
+    padding-left: 4px;
+    padding: 24.25px 0px;
+    border-bottom: .8px  solid rgb(189, 197, 210);
+}
+.build{
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+}
+#datasf{
+    padding-bottom: 24px;
+    
+}
+.buildimg{
+   position: relative;
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buildimg2{
+  
+    display: none;
+     
+ }
+.playbtn{
+    position: absolute;
+    
+    border: 1.6px solid rgb(0, 0, 0,0);
+   border-radius: 8px;
+    background-color: rgb(0, 120, 212);
+    padding: 14px;
+    width: 46.9px;
+    height: 47.2;
+}
+.playbtn span::before{
+    font-family: Azure;
+    content: '';
+    font-size: 17px;
+    font-weight: 600;
+    color: white;
+}
+.buildh1{
+    padding-bottom: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align-last: start;
+    text-align: left;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    color:rgb(23, 37, 61);
+}
+.buildh2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    text-align-last: start;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+    color:rgb(0, 66, 117);
+    margin-bottom: 24px;
+    padding-bottom: 2px;
+}
+.buildh3{
+    color:rgb(0, 66, 117);
+    margin-bottom: 24px;
+}
+.buildimg{
+    width: 100%;
+}
+.buildimg img{
+    width: 100%;
+    border-radius: 16px;
+}
+.view{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+}
+.subdatas{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.subdata{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.theonlysecond{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.windows{
+    margin-top: 32px;             
+}
+.server{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/386597-desktop-card-grid-product-and-services-promo-card-featured-320x610?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=640&hei=1221&qlt=100&fmt=png-alpha&fit=constrain");
+    border-radius: 16px;
+    background-size: cover;
+    object-fit: cover;              
+    background-position: center;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+}
+.noimg{
+    padding: 16px 16px 0px 16px;
+    width: 100%;
+    height:236px ;
+} 
+.windows h3{
+    padding-top: 4px;
+    font-family: Azurem;
+    font-size: 24px;
+    letter-spacing: -1.2px;
+    line-height: 32px;
+    color: rgb(14,23, 38);
+}
+.windowserver{
+    padding:0px 16px 16px 16px ;
+    display: flex;
+    flex-direction: column;
+    gap:12px ;
+}
+.windh1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align-last: start;
+    text-align: left;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    color:rgb(23, 37, 61);
+
+}
+.winbtn{
+   
+    height: 43.2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(0, 120, 212);
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1.8px;
+
+}
+.winbtn span{
+    font-family: Azurem;
+    padding-bottom: 2px;
+    font-size: 15px;
+    color:rgb(255,255, 255);
+    letter-spacing: -0.3px;
+    line-height: 22px;
+}
+.windsub{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.secondwindows{
+    border-radius: 16px;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+}
+.ai{
+    padding: 16px;
+}
+.aisub{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.aiimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+}
+.aiimg img{
+  width: 24px;
+  height: 24px;
+}
+.aih1{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.aih2{
+    display: inline-block;
+    font-family:Azurem;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(23,37, 67);
+    letter-spacing: -0.54px;
+    line-height: 24px;
+}
+.aih3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(23,37, 61);
+    letter-spacing: -0.48px;
+    line-height: 24px;
+}
+.explore{
+    margin-top: 32px;
+    color: rgb(0, 66, 117);
+    font-family:Azurem;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+    padding: 0px;
+    border: none;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+}
+.explore a{
+    color: rgb(0, 66, 117);;
+}
+#subrows2{
+    margin-top: 32px;
+}
+.acol{
+    padding: 56px 0px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/386597-mobile-1-up-card-gartner-bg-360x722?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=360&hei=722&qlt=100&fmt=png-alpha&fit=constrain");
+    background-size: cover;
+}
+.normalrow{
+    margin-top: 32px;
+    padding: 0px 20px;
+}
+.rowone{
+    background-color: rgb(255,255, 255);
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+}
+.imgone{
+    padding: 8px 8px 8px 8px;
+    
+}
+.imgone img{
+    aspect-ratio :1.33333 / 1;
+        width: 100%;
+        background-size: cover;
+        border-radius: 8px;
+}
+.imgones{
+    display: none;
+}
+.rowmain{
+    padding-top: 12px;
+    padding: 13px;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 32px;
+}
+.rowsh1{
+    display: flex;
+    flex-direction: column;
+    gap:12px ;
+}
+.rowsh1 h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    color:rgb(14, 23, 38) ;
+    text-align: left;
+    font-weight: 600;
+    letter-spacing: -1.2px;
+    line-height: 32px;
+
+}
+.rowsh3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color:rgb(23, 37, 61) ;
+    
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+
+}
+.thecolone{
+    padding: 0px 20px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.thecolcon{
+    padding-top: 48px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.thecolh1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 12px;
+    letter-spacing: 0.96px;
+    line-height: 16px;
+    color: rgb(23,37, 61);
+ 
+}
+.thecolh2{
+    font-family: Azurem;
+    
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: -1.4px;
+    line-height: 36px;
+    color: rgb(23,37, 61);
+   
+}
+.itscroller{
+    padding: 8px 20px ;
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    width: 100%;
+}
+.itscroller::-webkit-scrollbar{
+    display: none;
+}
+.itdiv{
+    height: 52px;
+    padding: 12px 16px 16px 16px;
+    margin-right: 0.8px;
+    /* border-left: 0.8px solid rgb(189, 197, 210); 
+    border-top:  0.8px solid rgb(189, 197, 210);
+    border-bottom:  0.8px solid rgb(189, 197, 210); */
+    border-bottom:  0.8px solid rgb(189, 197, 210);
+    border-left:  0.8px solid rgb(189, 197, 210);
+    border-top:  0.8px solid rgb(189, 197, 210);
+    width: 220.53px;
+    box-sizing: border-box; 
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 1.008px 2px 0px;
+}
+.itdiv3{
+    
+}
+#itdiv1{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom: 4px solid rgb(0, 66, 117);
+    
+}
+#itdiv2{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-right:  0.8px solid rgb(189, 197, 210);
+}
+.itdiv span{
+    display: inline-block;
+    white-space: nowrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color:rgb(14, 23, 38) ;
+    width: 188.53px;
+    font-weight: 600;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+}
+.imgagelaptop{
+    
+}   
+.toparrow{
+    margin-top: 5px;
+    padding: 20px 20px 0px 12px;
+    display: flex;
+    gap: 12px;
+}
+.toparrowone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1.6px solid #c4d5e2;
+}
+.toparrowone span::after{
+    font-family: Azure;
+    content: "";
+    font-size: 18px;   
+    color:  #c4d5e2; 
+}
+.toparrowtwo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1.6px solid rgb(0, 66, 117);
+}
+.toparrowtwo span::after{
+    font-family: Azure;
+    content: "";   
+    font-size: 18px;  
+    color:  rgb(0, 66, 117); 
+}
+.optimize{
+    padding: 24px 16px 48px 16px;
+}
+.optimizemain{
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+    ;
+}
+#reads{
+    margin: 0px;
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+}
+.optimizeh1{
+    padding-top: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color:rgb(14, 23, 38) ;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 28px;
+}
+.laptop{
+    margin-top:24px ;
+    border-radius: 16px;
+    border: 0.8px solid rgba(255, 255, 255, 0.1);
+}
+.lapimg{
+    padding:16px ;
+    width: 100%;
+    
+    border: 0.8px solid rgba(255, 255, 255, 0.1);
+}
+.lapimg img{
+    border-radius: 8px;
+    object-fit: fill;
+    width: 100%;
+}
+.golbal{
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/361349-desktop-full-screen-banner-azure-regions-bg-1600x372?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=3200&hei=744&qlt=100&fmt=png-alpha&fit=constrain");
+    padding: 56px 16px;
+    background-size: cover;
+    background-position: center;
+}
+.golbalmain{
+    display: flex;
+    flex-direction: column;
+    
+}
+.golbalh1{
+    
+    font-family: Azurem;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: -1.6px;
+    line-height: 40px;
+    color:rgb(244, 250, 253);
+
+}
+.golbalh2{
+    text-align: center;
+    margin-top: 16px;
+    padding: 0px 16px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color:rgb(220, 238, 248);
+    letter-spacing: -0.54px;
+    line-height: 28px;
+}
+.golbtn{
+    margin-top: 24px;
+    padding: 12px;
+    width: 100%;
+    border: 1.6px solid rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    background-color: rgb(179, 218, 240);
+}
+.golbtn div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Azurem;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 2px;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+    
+}
+.golm{
+    margin-top: 24px;
+}
+
+.customer{
+    padding: 56px 0px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/386597-mobile-case-study-customer-stories-bg-360x1036?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=2073&qlt=100&fmt=png-alpha&fit=constrain");
+    background-image: cover;
+}
+.mainpad{
+    width: 100%;
+    padding: 0px 23px;
+    margin-top: 24px;
+}
+.maincustomer{
+    min-width: 274px;
+    background-color: rgb(255,255, 255);
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+}   
+.gitbtn{
+    margin-top: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 52px;
+    background-color: rgb(0, 120, 212);
+    padding:  12px;
+    border-radius: 8px;
+    border: 1.8px;
+}
+.gitbtn div{
+    font-family: Azurem;
+    padding-bottom: 2px;
+    font-size: 15px;
+    color:rgb(255,255, 255);
+    letter-spacing: -0.3px;
+    line-height: 22px;
+    padding-bottom: 2px;
+}
+  
+.maincimg{
+    padding: 8px 8px 0px 8px;
+}
+.maincimg img{  
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover; 
+ 
+}
+.maincimgs{
+    display: none;
+}
+.hp{
+    display: flex;
+    flex-direction: column;
+ 
+    height: 100%;
+    padding: 16px;
+    gap: 24px;
+}
+.productsh1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+
+}
+.subhp{
+    display: flex;
+    flex-direction: column;
+ 
+    gap: 12px ;
+}
+.proh1{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 8px ;
+}
+.hpimg{
+    display: flex;
+    align-items: center;
+    border: 0.8px solid rgb(189, 197, 210);
+    border-radius: 8px;
+    width: 173px;
+}
+.hpimg img{
+    width: 100%;
+    border-radius: 16px;
+}
+.dhp{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color:rgb(14, 23, 38);
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 28px;
+}
+.prosh1{
+    padding-bottom: 2px;
+    font-family: Azurem;
+    font-size: 16px;
+    letter-spacing: -0.48px;
+    line-height: 22px;
+}
+.gitlogo{
+    height: 25.2px;
+    display: flex;  
+    gap:8px ;
+} 
+.gith1 a{
+    color: rgb(0, 103, 184) ;
+    font-family: Azurem;
+    font-size: 14px;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+    padding-bottom: 2px;
+}
+.gitimg{
+    display: flex;
+    align-items: center;
+    min-height: 20px;
+}
+.gitimg img{
+    margin-top: -2px;
+}
+#gitimg2{
+    width: 20px;
+}
+.gits{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    column-gap:12px 
+}
+.productsmain{
+    display: flex;
+    flex-direction: column;
+}   
+.maincustomerscroll{
+    display: flex;
+    width: 100%;
+    overflow-x: scroll; 
+}
+.maincustomerscroll::-webkit-scrollbar{
+    display: none;
+}
+.mainpad{
+    display: flex;
+    flex: 0 0 calc(100% - 0.75rem);                            
+} 
+.toparrows{
+    padding: 33px 20px 0px 20px;
+    display: flex;
+    gap: 8px;
+}
+.toparrowones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49.2px;
+    height: 49.2px;
+    border-radius: 50%;
+    border: 1.6px solid #c4d5e2;
+}
+.toparrowones span::after{
+    font-family: Azure;
+    content: "";   
+    color:  #c4d5e2; 
+    font-size: 21px;
+}
+.toparrowtwos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49.2px;
+    height: 49.2px;
+    border-radius: 50%;
+    border: 1.6px solid rgb(0, 66, 117);
+}
+.toparrowtwos span::after{
+    font-family: Azure;
+    content: "";   
+    color:  rgb(0, 66, 117); 
+    font-size: 21px;
+}
+#theview{
+    padding: 0px 20px;
+}
+.lastus{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.customerone{
+    padding: 56px 0px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/386597-mobile-3-up-card-next-step-bg-360x764?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=1528&qlt=100&fmt=png-alpha&fit=constrain");
+    background-image: cover;
+}
+.subcon{
+    padding: 0px 22px;
+}
+#readhai{
+    width: 34.7px;
+    height: 35px;
+} 
+
+.subsh1 h1{
+    font-family: Azurem;
+    
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: -1.4px;
+    line-height: 36px;
+    color: rgb(23,37, 61);
+}
+.subcustomer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+.cards{
+    padding: 16px;
+    border-radius: 16px;
+    background-color: rgb(255,255, 255);
+    box-shadow:  rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+}
+.cardh1{
+   
+    font-family: Azurem;
+    font-size: 18px;
+    letter-spacing: -0.54px;
+    line-height: 24px;
+    color: rgb(14, 23, 38);
+} 
+.cardh2{
+    min-width: 240px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 400;
+        font-size: 16px;
+        text-align-last: start;
+        text-align: left;
+        letter-spacing: -0.48px;
+        line-height: 24px;
+        color:rgb(23, 37, 61) ;   
+           
+}
+#cardview{
+    margin-top: 32px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.subconmain{
+    margin-top: 24px;
+}
+.subcontents{
+  
+    padding: 0px 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.getapp{
+    padding: 24px 20px;
+}
+.subgap{
+    display: flex;
+    flex-direction: column;
+}
+.getbtnapp{
+    display: flex;
+}
+.getbtnh1{
+    font-family: Azurem;
+    font-size: 15px;
+    color: rgb(0,0, 0);
+    letter-spacing: -0.3px;
+    line-height: 22px;
+    text-align: center;
+}
+.getbtnimg{
+    margin-right:8px ;
+}
+.getbtnapp{
+    margin: 8px 0px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    width: 226.64px;
+    height: 52.25px;
+    border-radius: 3.2px;
+    border: 1.6px;
+    background-color :rgb(230, 230, 230);
+}
+.iconplay{
+    display: flex;
+    margin: 8px 0px 8px 20px ;
+    transform: translateY(-6px);
+}
+.imgiconplay{
+    
+}
+.imgicon{
+    margin-right:16px ;
+}
+.imgicons{
+    
+    
+    width: 31.83px;
+    height: 26.4px;
+}
+.imgicons img{
+    width: 24px;
+    height: 24px;
+} 
+.footers{
+    padding-bottom: 56px;
+    padding: 0px 12px;
+    background-color: #f2f2f2;     
+}  
+.subfooter{
+    padding: 0px 12px;
+}
+.subfooterh1{
+    padding: 36px 0px 4px 0px;
+    font-family: Azurem;
+  
+    color: rgb(97, 97, 97);
+    font-size: 15px;
+    font-weight: 600;
+}
+.subfooterh2{
+    line-height: 16px;
+    padding: 8px 0px 8px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(97, 97, 97);
+    font-size: 11px;
+    font-weight: 400;     
+}
+.lastfooter{
+    padding: 30px 24px 16px 24px;
+    background-color: #f2f2f2;     
+}       
+.english{
+    display: flex;
+    align-items:center ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(97, 97, 97);
+    font-size: 11px;
+    font-weight: 400;
+    height: 24PX;
+}
+.english span::after{
+    font-family: Azure;
+    content: '';
+    font-size: 20px;
+    margin-right: 10px;
+}
+.chocies{
+    margin: 8px 0px  16px 0px ; 
+    padding: 4px 24px 0px 0px;
+    display: flex;
+    align-items:flex-start ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(97, 97, 97);
+    font-size: 11px;
+    font-weight: 400; 
+}
+.chocies svg{
+    padding-right: 8px;
+}
+.health{
+    padding: 4px 24px 4px 0px ;
+    display: flex;
+    align-items:center ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(97, 97, 97);
+    font-size: 11px;
+    font-weight: 400;
+}
+.unoder{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu{
+    margin: 9px 0px 9px 0px;
+}
+.menuitem{
+    line-height: 24px;
+    display: inline-block;
+    padding: 6px 9px 0px 0px;
+    align-items:center ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(97, 97, 97);
+    font-size: 11px;
+    font-weight: 400;
+}
+.mainfixed{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.fixed{
+    color: rgb(23, 37, 61);
+    transform: translateX(4px);
+    margin-right:-20px;
+    position:fixed; 
+    right: 20px;
+    bottom: 0px;  
+    opacity: .95;
+    background-color: white;
+    margin: 0px auto;
+    border: 0.8px solid rgb(230, 242, 251) ;
+    box-shadow: (0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+    border-radius: 8px;
+    padding: 12px;
+    width: 281.1px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+        
+}                         
+.fixedsub img{
+    padding-top: 3px;
+ width: 24px;
+ height: 24px;
+}
+.fixedh1{
+    padding-left: 10px;
+    font-family: Azurem;
+    font-size: 18px;
+    letter-spacing: -0.54px;
+    line-height: 24px;
+    color: rgb(14, 23, 38);
+}   
+.fixedbtn{       
+    margin-left:24px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34.9px;
+    height: 35px;
+    border-radius: 8px;
+    background-color: rgb(0, 120, 212);
+}
+.fixedbtn span::after{
+    font-family: Azure;
+    color: blanchedalmond;
+    font-size:13px;
+    content: "";              
+}
+.unknow{
+    padding-bottom: 70px;
+}
+#nofooter{
+    padding-bottom: px;
+}
+#helos{
+    padding: 56px 0px 0px 0px;
+}
+/* 503  
+540
+760 
+860
+890
+935
+942
+1049 
+1084
+1096
+1103
+1120
+1183
+1264
+1354
+1400
+1440   
+1454
+1860 */  
+@media(min-width:503px){
+    .subgap{
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+    }
+    .iconplay{
+        margin-left: 12px;
+        margin-top: 22px;
+    }
+}   
+@media(min-width:540px){
+    #headcontainer2 {
+        margin-left: 0px;   
+    }
+    .mainbanner {
+        padding: 0px 64px;
+       
+    }
+    .unknow{
+        padding-bottom: 60px;
+    }
+    .rows{
+        padding-bottom: 94px;
+    }
+    .getbnt{
+        display: flex;
+        flex-direction: row;
+       
+    }
+    .solutions{
+        padding: 56px 48px;
+    }
+    .getstart{
+        width: 173.45px;
+    }
+    .explores{
+        width: 134.85px;
+    }
+    .explores span{
+        white-space: nowrap;
+    }  
+     
+    #helos{
+        padding: 56px 48px 56px 48px;
+    }
+    .normalrow{
+        padding: 0px 66px;
+        transform: translateX(-3px);
+    }
+    .footers{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .lastfooter{
+        padding: 30px 24px 16px 24px;
+        background-color: #f2f2f2;     
+    }    
+    .winbtn{
+        width: 118.4px;
+        white-space: nowrap;
+    }
+    #wind1{
+        width: 156.16px;
+        white-space: nowrap;
+    }
+    .golbtn{
+        width: 141.98px;
+        white-space: nowrap;
+    }
+    .golbalmain {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }     
+    .optimize {
+        padding: 0px 48px;
+    }  
+    .customerone{
+        padding: 56px 48px;
+    }
+    .subcon{
+        padding: 0px 18px;
+        transform: translateX(-4px);
+    }
+    .card{
+       padding-right: 24px;
+    }
+    .imagebanner{
+        padding: 56px 66px 0px 66px; 
+        transform: translateX(-3px);
+    }        
+    .customer{
+        padding: 56px 44px ;
+    } 
+    .gitbtn{
+        width:97.21px ;
+    }   
+    .subh2 {
+        padding-right:24px;
+    }
+    .subrows{
+        padding-left: 12px;
+    }
+    .data {
+        padding: 0px 20px 0px 16px;
+    }
+    .data1{
+        display: flex;
+        gap: 11px;
+        
+    }
+    .datas {
+        padding: 0px 20px 0px 16px;
+    }
+    .rowmain{
+        padding: 16px 40px 16px 13px ;
+    }
+    .imgone{
+        padding: 8px 8px 0px  9px;
+    }
+    .itdivimg{
+        padding: 0px 64px;
+    }
+    .itscroller{
+        padding-right: 0px;
+        padding-left: 0px;
+        transform: translatex(4px);
+    }
+    .toparrow{
+        padding-right: 0px;
+        padding-left: 0px;
+        transform: translatex(-4px);
+    }
+    .optimize{
+        padding: 24px 0px 48px 0px ;
+    } 
+    .lapimg{
+        padding: 15px;
+    }
+    .golbalmain{
+        padding: 0px 48px;
+    }
+    .subgap{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .iconplay{
+        display: flex;
+        margin: 8px 0px 8px 20px ;
+        transform: translateY(-6px);
+    }
+    .getapp{
+        padding:24px 68px ;
+    }
+    .menuitem{
+        padding: 6px 4px 0px 6px;
+    }
+}                               
+@media(min-width:560px){
+    .subgap{
+        display: flex;
+        flex-direction: row;
+        align-items: center;   
+    }
+    .iconplay{
+        margin-left: 12px;
+        margin-top: 22px;
+    }
+}
+@media(min-width:571px){
+    .subgap{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .iconplay{
+        margin-left: 12px;
+        margin-top: 26px;
+    }
+    .getbtnapp{
+        padding-left: 14px;
+    }
+    .menuitem {
+        padding: 6px 3px 0px 6px;
+    }   
+}
+@media(min-width:760px){
+    .unknow{
+        padding-bottom:70px ;
+    }
+} 
+@media(min-width:860px){
+   header{
+    display: none;
+   }
+   .headernews {
+    display: inline; 
+}
+   .newheader{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 24px;
+   }
+   .theme{
+    display: flex;
+    justify-content: space-between;
+   }
+   .subtheme{
+    height: 54px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 24px;
+    margin-bottom: 2px;
+    align-items: center;
+   }
+   .mimage{
+    padding: 16px 6px 16px 10px;
+    margin-top: 1px;
+   }
+   .mimage img{
+    margin-top: -3px;
+    height: 23px;
+    width: 108px;
+   }
+   .abar{
+    display: flex;
+    align-items: center;
+   }
+   .barss{
+    margin-left: 20px;
+    height: 24px;
+    width: 2px ;
+    background-color:rgb(0, 0, 0);
+   }
+   .abar span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgb(38, 38, 38);
+    margin-top: 1px;
+    margin-left: 9px;
+    padding: 15px 6px 17px 10px;
+   }
+   .producttag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(0, 0, 30);
+    margin-top: 1px;
+    
+    padding: 15px 5px 17px 11px;
+   }
+   .producttags{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(0, 0, 30);
+    margin-top: 1px;
+    padding: 15px 2px 17px 20px;
+    display: flex;
+   }
+   .producttags span::after{
+        font-family: Azure;
+        content: '';
+        font-size: 8px;
+        
+
+   }
+   .producttags span{
+    display: flex;
+    padding-top: 7px;
+    padding-left: 7px;
+   }
+   .asearch span::after{
+    font-family: Azure;
+    content: '';
+    font-size: 16px;
+    height: 18px;
+   } 
+   .theonly{
+    display: flex; 
+   }
+   .asearch{
+    padding: 20px 18px 17px 9px;
+    margin-left: 6px;
+   }
+   .azure{
+    display: none;
+   }
+   .bannerimg1{
+    display: none;
+   }  
+   .mainbanner{
+        background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/386597-mobile-hero-slim-hero-bg-home-page-360x203?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=720&hei=405&qlt=100&fmt=png-alpha&fit=constrain");
+        object-fit:cover;                      
+        padding: 0px 64px;
+        padding-left: 56px;
+        display: flex;
+        align-items: center;
+        background-repeat: no-repeat; 
+        background-position: left center;
+        background-size: 179%; 
+        background-color: transparent; 
+        height: 671px;
+        width: 100%;
+
+    }   
+    .bgarrow{
+        display: flex;
+        background-color: white;
+    }   
+    .fixed{
+     padding: 16px;
+     width: 297px;
+     height: 77.1px;
+    }      
+    .rows{
+        display: grid;
+        grid-template-columns: repeat(2,1fr); 
+        padding-bottom: 0px; 
+        transform: translateY(-39px)
+    }
+    .yourai h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .makeyou {
+        margin-top: 24px;
+        padding-right: 48px;
+    }
+    .getbnt{
+        margin-top: 32px;
+    }
+    .limit{
+        margin-bottom: 16px;
+    }
+    .getstart{
+        width: 181.45px;
+    }
+    .explores{
+        width: 142.85px; 
+    }
+    .chatmain{
+        display: flex;
+    }
+    .chat{
+        width:100% ;
+        padding: 32px 56px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 16px;
+        background-image: linear-gradient(131deg, rgb(0, 50, 89) 0%, rgb(9, 31, 44) 50.25%, rgb(0, 66, 117) 100%)
+        ;
+        color: white;
+    }
+    .chatsub{
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+       padding: 12px 12px 7px 0px;
+        gap: 5px;
+    }
+    .aichath{
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    .aicharh1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        font-size: 24px;
+        
+        letter-spacing: -1.2px;
+        line-height: 32px;
+        color: rgb(244, 250, 253);
+    }
+    .aichath2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:rgb(220, 238, 248);
+        
+        font-size: 14px;
+        letter-spacing: -0.48px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+    .chatsub2{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .a{
+        height: 64px;
+    }
+    .a input{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        width: 100%;
+        padding: 20px 60px 20px 16px;
+        border-radius: 8px;
+        height: 64px;
+        border-bottom: 4px solid rgb(42, 167, 216);
+    }
+   .aiimgs img{
+    width: 40px;
+    height: 32.8px;
+
+   }
+    .try{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .trysub{
+        white-space: nowrap;
+        background-color: transparent;
+        height: 37.6px;
+        width: 142.98px;
+        padding: 8px 10px;
+        font-weight: 400;
+        border-radius: 8px;
+        border: 0.8px solid rgb(141, 200, 232);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        text-align-last: start;
+        text-align: left;
+        letter-spacing: -0.28px;
+        line-height: 20px;     
+    }    
+          
+    .trysub1{
+        white-space: nowrap;
+        background-color: transparent;
+        height: 37.6px;
+        width: 236.8px;
+        padding: 8px 10px;
+        font-weight: 400;
+        border-radius: 8px;
+        border: 0.8px solid rgb(141, 200, 232);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        text-align-last: start;
+        text-align: left;
+        letter-spacing: -0.28px;
+        line-height: 20px;
+    }
+    .featured{
+        display: none;
+    }
+    .tabfeatures{
+        display: flex;
+        padding: 0px 56px;
+        height: 66px;
+        position: relative;
+        justify-content: space-between;
+    } 
+    .tabfeature{
+        display: flex;
+        overflow: scroll;
+    }
+    .tabfeature::-webkit-scrollbar{
+        display: none;
+    }
+    .tabfe{
+        height: 36px;  
+        margin-top: 16px; 
+        margin-right: 44px;
+        padding: 3px 0px 4px 4px;
+    }
+    .tabfe div{
+        white-space: nowrap;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(0, 66, 117);
+        font-size: 14px;
+        font-weight: 600;
+        text-align-last: start;
+        text-align: left;
+        letter-spacing: -0.48px;
+        line-height: 24px; 
+
+    }  
+    .bluebar{
+        margin-top: 16px;
+        width: 85.5px;
+        height: 4px;
+        margin-bottom: -7px;
+        background-color: rgb(0, 66, 117);
+    }
+    #theonlyarrow{
+    margin: 0px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 47px;
+    height: 37px;
+    margin: 4px; 
+    transform: translateX(-4px);
+    margin-top: 13px;
+    border: 1.6px solid rgb(0, 66, 117);
+    border-radius: 200px;
+    background-image: linear-gradient(90deg, rgba(237, 218, 218, 0) 25%, rgba(242, 242, 242, 1) 100%);
+    }
+    #theonlyarrow span::after{
+        color:  rgb(0, 66, 117);;
+        font-family: Azure;
+        content: "";
+        font-size: 12px;
+    }
+    .themainstartwith{
+        margin-left: 32px;
+    }
+    .tabsub{
+        display: flex;
+        width: 76.3%;
+    }
+    .startwith{
+      
+      padding: 8px 16px;
+      border: 2px solid rgb(0, 0, 0,0);
+      background-color:rgb(0, 120, 212) ;
+      border-radius: 8px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+    }
+    .thearrowsss{
+        display: flex;
+    }
+    .thestart{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        
+    }
+    .startwith span{
+        padding-bottom: 2px;
+        font-family: Azurem;
+        font-size: 15px;
+        color: rgb(255,255, 255);
+        letter-spacing: -0.3px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .containernews {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        margin-top: 
+        48px;
+    }
+    .newscontent{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        border-radius: 24px;
+    }    
+    .imagebanner{
+       padding:  96px 59px 96px 59px;
+       background-repeat: no-repeat;
+    }
+    .subh2{
+        margin-top: 1px;
+    }   
+    .container{
+        padding: 0px;
+    }
+    .readblog{
+        margin-top: 48px;     
+    }
+    .imgnews img {
+        border-radius: 16px;
+    }
+    .subject{
+        display: flex;
+        padding: 24px;
+        justify-content: space-between;
+        height: 100%;
+    }    
+    .submain{
+        gap: 16px;
+    }
+    .imgnews{
+        border-radius: 16px;
+    }
+    .unoder{
+        display: flex;
+        justify-content: flex-end;
+    } 
+    .menu{
+        margin: 6px 0px;
+        
+    }
+    .menuitem{
+        padding: 0px 24px 4px 0px;
+    }
+    .rowone{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .subcontents{    
+        row-gap: 8px; 
+    } 
+    .headh1{
+        margin-bottom: 8px;
+    }
+    .solutions{
+        padding: 96px 56px;
+    }
+    .mainsolutions{
+        padding: 0px;
+    }
+    .subrows{
+        padding: 0px;
+        margin-top: 32px;
+    }  
+    .buttonsub {
+  
+        padding: 9px 24px;
+    }
+    .scroller1{
+        padding: 0px;
+    }
+    .buttonsub2{
+        padding: 9px 24px;
+    }
+    .buildimg{
+        display: none;
+    }
+    .subbuildimg{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex: 2;
+    }
+    .buildimg2{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 2;
+
+     }
+     .playbtn {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+     .buildimg2 img{
+       width: 100%;
+        border-radius: 24px;
+        background-position: center;
+     }
+     .themaindata{
+        display: flex;
+        width: 100%;
+        gap: 56px;
+        margin-top: 32px;    
+     }
+     #datasf{
+        padding-top: 0px;
+        padding-bottom: 32px;
+        margin-left: 48px;
+     }
+     .dataanalytics{
+        margin-left: 51px;
+        padding:32px 0px ;
+     }
+     .buildh2{
+        margin-bottom: 0px;
+     }
+     .data{
+        overflow-y: scroll;
+        width: 100%;
+      
+        flex-basis: calc(33% - 1rem /2);
+        padding: 0px;
+     }
+     .data2{
+        padding-bottom: 32px;
+        justify-content: flex-start;
+        display: flex;
+        gap: 12px;
+     }
+     #nohideview{
+        display: flex;
+     }
+     #hideview{
+        display: none;
+     }
+    .build{
+        gap: 0px;
+    }
+    .buildh2{
+        margin-top: 32px;
+    }
+     .pdata{
+        display: flex;
+
+     }
+     .leftbar{
+        border-left:3px solid rgb(0, 66, 117);
+        width: 4.14px;
+        height: 215.8px;
+        background-color: rgb(0, 66, 117);
+     }
+     .thetopmain{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+     }
+    
+     .datamain{
+        
+        overflow-y: auto;
+        height: 100vh !important;
+        max-height: 630px;
+     } 
+     .datamain::-webkit-scrollbar{
+        display: none;
+     }
+     .theonlysecond{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:16px;
+     }
+     .noimg {
+        height:auto;
+    
+     }
+     .server{
+        display: grid;
+        padding: 8px;
+        grid-template-rows: repeat(2,1fr);
+     }
+     #helos{
+        padding: 96px 56px;
+     }
+     #subrows2{
+        margin-top: 48px;
+     }
+     .datas{
+        padding: 0px;
+     }
+     .windowserver{
+        gap: 16px;
+     }
+     .windsub{
+        gap: 16px;
+     }
+     #wind1{
+        padding: 8px 16px;
+        width: 164.14px;
+     }
+     .ai{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 24px;
+     }
+     .explore{
+        margin-top: 48px;
+     }
+     .aih1{
+        gap: 16px;
+     }
+     .aisub{
+        gap: 16px;   
+     }
+     .datas{
+        gap: 48px;
+     }
+     .subdata{
+        gap:16px;
+     }
+     .rowmain{
+        gap: 96px;
+        width: 147%;
+        padding: 25px 56px 24px 16px;
+     }
+     .imgone{
+        display: none;
+     }
+     .imgones{
+        display: flex; 
+        padding: 8px 8px 8px 0px;  
+    }
+    .rowsh1{
+        gap: 16px;
+    }
+    .acol{
+        padding: 96px 0px;
+    }
+    .normalrow {
+        margin-top: 48px;
+        padding: 0px 60px;
+    }
+    .imgones img{
+        aspect-ratio :1.33333 / 1;
+            width: 100%;
+            background-size: cover;
+            object-fit: cover;
+            border-radius: 16px;
+            background-position: cover;
+    }
+    .rowone{ 
+     
+    }
+    .windows{
+        margin-top: 48px;
+    }
+    .winbtn{
+        width:126.4px ;
+    }
+    .subcontents{
+    
+    }
+    .lapimg{
+      
+    }   
+    .maincustomerscroll{
+        gap:16px;
+    }
+    .subcustomer{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .maincimg{
+        display: block;
+    }
+    .maincimgs{
+       
+        flex: 1;
+    }
+    .mainimgs img{
+        width: 100%;
+    }
+    .hp{
+        flex: 1;
+        gap: 32px;
+        padding:28.5px 25px;
+    }
+    .subhp{
+        gap: 16px;
+    }
+    .gitbtn{
+        margin-top: 32px;
+    }
+    .toparrow{
+        display: none;
+    }
+    .themaintoparow{
+        display: flex;
+        padding:21px 24px 18px 49px;
+        margin-right: -32px;
+    }
+    #thetoptwo{
+        display: flex;
+ 
+    }
+    .itdiv{
+        padding: 16px 24px  24px 23px;
+        height: 64px;
+    }
+    .itsrollermain{
+        display: flex;
+        
+    }
+    .itdivimg{
+        padding: 0px 60px;
+    }
+    .thecolh2{
+        font-size: 30px;
+        letter-spacing: -1.5px;
+        line-height: 36px;
+    }
+    .thecolh1 {
+        margin-bottom: 8.5px;
+    }
+    .thecolone{
+        margin-bottom: 24px;
+    }
+    .optimizemain{
+        gap: 16px;
+    }
+    .optimize{
+        padding:31px 0px 72px 0px; ;
+    }
+    .thecolcon{
+
+        padding-top: 72px;
+    }
+    .lapimg{
+        width: 67.54%;
+        margin: auto;
+        margin-top: 2px;
+        padding: 24px;
+    }
+    .itdivimg{
+     
+    }
+    .optimizeh1{
+        padding-top: 5px;
+    }
+    .laptop{
+        margin-top: 31px;
+    }
+    .golbal{
+        padding: 96px 0px;
+    }
+    .golbalh1{
+        font-family: Azurem;
+        font-size: 40px;
+     
+        letter-spacing: -2px;
+        line-height: 48px;
+      
+    }
+    .golbalh2{
+        margin-top: 25px;
+        padding: 0px 48px; 
+    }
+    .golbtn{
+        margin-top: 32px;
+        margin-bottom: 12px;
+        width:149.98px ;
+    }
+    .golbalmain{
+      padding: 0px  64px;
+    }
+    .customer{
+        padding: 72px 55px;
+    }
+    .mainpad{
+        padding: 0px;
+        margin-top: 32px;
+    }
+    .maincimg{
+        width: 50%;
+        padding: 0px;
+      
+    }
+    .maincimg img{
+        height: 100%;
+        border-radius: 16px;
+        padding: 8px 8px 12px 0px;
+    }
+    .toparrows{
+        display: none;
+    }
+    .thehouse{
+        display: flex;
+        
+        width: 100%;
+    }
+    .thesubhouse{
+        width: 100%;
+        padding: 16px;
+        background-color :rgb(254, 254, 254);
+        box-shadow :rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+
+    }
+    .house{
+        width: 100%;
+        padding: 17px 16px ;
+        
+    }
+    .house{
+        width: 100%;
+    }
+    .house img{
+        width: 100%;
+        aspect-ratio: 2.33333 / 1;
+    }
+    .lastus{
+        margin-top: 32px;
+        gap: 32px;
+    }
+    #subhouses{    
+        background-color :rgb(254, 254, 254);
+        border-bottom-left-radius:16px;
+        border-top-left-radius:16px;
+        box-shadow :#0000001f 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+        border-bottom: 4px solid rgb(0, 85, 151) ;
+        }
+    #thehouses1{
+        border-top-right-radius:16px;
+        border-bottom-right-radius: 16px;
+    }
+    .hpbar{
+        width: 100%;
+        background-color: blue;
+        height: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .thebars{
+        display: flex;
+        flex-direction: column;
+    }
+    #theview{
+        padding: 0px;
+    }
+    
+    .subcontents{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        max-width: 100%;
+        gap: 16px;
+    }   
+    .cards{
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 24px;
+        
+    }
+    .card{
+        gap: 16px;
+    }
+    .cardh2{
+     min-width: 100%;
+    }
+    #cardview{
+        margin-top: 48px;
+    }
+    .subcon{
+        padding: 0px 19px 0px 11px;
+    }
+    .subconmain{
+        margin-top: 31px;
+    }
+    .subsh1 h1{
+        margin-left:13px;
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -1.5px;
+    }
+    .customerone{
+        padding: 96px 48px;
+    }
+    .unknow{
+        padding-bottom: 78;
+    }
+    .health{
+        padding-top: 3px;
+    }
+    .menuitem{
+        padding: 0px 23.1px 5px 0px;
+    }
+    .getbtnapp{
+        width: 235.44px;
+        padding-left: 18px;
+        padding-top: 15px;
+    
+    }
+    .getapp{
+        padding: 24px 60px;
+    }
+    .imgagelaptop{
+        background-position:center ;
+    }
+}   
+@media(min-width:890px){  
+    .mainbanner{
+        height:644px ;  
+    } 
+    .arrowleft{
+        display: none;
+    }
+    .makeyou{
+        padding-right: 53px;
+    }
+    #theearrow{
+        display: flex;
+    }
+    .rowmain{
+        width: 146%;
+    }  
+}      
+@media(min-width:935px){
+    .noimg{
+        height: 168px;
+    }
+    .windowserver{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .try{
+        display: flex;
+        flex-direction: row;
+    } 
+    .rowmain {
+        width: 142%;
+    }
+}     
+@media(min-width:942px){
+    .makeyou {
+        padding-right: 52px;
+    }
+    .rowmain {
+        width: 139%;
+    }
+    .thestart{
+        background-color: white;
+        display: flex;
+        align-items: center;
+        
+    }
+}             
+@media(min-width:1049px){
+    .server{
+        aspect-ratio: 740/314;
+    }
+    #theonlyarrow{
+        display: none;
+    }
+    .rows{
+        margin-top: 15px;
+    }
+    #theearrow{
+        display: none;
+    }
+    .mainbanner{
+    padding: 0px 56px;
+    }
+    .rowmain { 
+        width: 123%;
+    }     
+}    
+
+@media(min-width:1084px){
+   
+    .theonly{ 
+        display: none;  
+    }
+    .theonlys{
+        display: flex;
+    }
+    .producttags{
+        display: none;
+    }
+    .asearchmain{
+        display: flex;
+        
+    }
+    .producttags1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        color: rgb(0, 0, 30);
+        margin-top: 1px;
+        padding: 15px 2px 17px 20px;
+        display: flex;
+       }
+       .producttags1 span::after{
+            font-family: Azure;
+            content: '';
+            font-size: 8px;
+            
+    
+       }
+       .producttags1 span{
+        display: flex;
+        padding-top: 7px;
+        padding-left: 7px; 
+       }
+       #prohai{
+        padding: 16px 8.5px 16px 8.5px;
+       }
+       .asearch {
+        padding: 20px 17px 17px 10px;
+        margin-left: 6px;
+         }
+       .normalasure{
+            padding: 4px 7px 4px 7px;
+            border: 2px solid rgb(0, 0, 0,0);
+            background-color:rgb(0, 120, 212) ;
+            height: 31px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            margin: 11px  8px 1px 8px;      
+       }
+       .rows{
+        margin-top: 31.5px;
+       }
+       .limit {
+        margin-bottom: 15px;
+       }    
+       .mainbanner{
+        height: 625px;
+        padding: 0px 56px;
+       }    
+       .makeyou{
+        padding-right: 56px;
+       }     
+       .normalasure span{
+            padding-bottom: 2px;
+            font-family: Azurem;
+            font-size: 13px;
+            color: rgb(255,255, 255);
+            letter-spacing: -0.3px;
+            line-height: 19.5px;
+            text-align: center;
+    }
+    .signin{
+        transform: translateX(-2px);
+        height: 31px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 11px ;
+        padding: 4px 8px;
+        border: 0.8px solid rgb(0, 0, 0);
+        border-radius: 3px;
+        
+    }
+    .signin span{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        color: rgb(38, 38, 38);
+        line-height: 19.5px;
+        margin-top: -3px;
+       
+    }
+    .newheader{
+        padding: 0px;
+        width: 100%;
+        justify-content:space-between;
+        padding: 0 5%;
+    }
+    .subtheme{
+        padding: 0px;
+    }
+    .footers{
+        grid-template-columns: repeat(6,1fr);
+        margin: 0 auto;
+        max-width: calc(1600px + 10%);
+        padding: 0 5%;
+    }
+    .lastfooter{
+    background: #f2f2f2;
+    margin: 0 auto;
+    max-width: calc(1600px + 10%);
+    padding: 28px 5% 16px;
+    }
+    .themaine{
+        display: flex;
+        align-items: center;
+    }
+    .english{
+    padding-right:24px ;
+    }
+    .chocies{
+        margin: 
+        0px;
+        padding: 4px 24px 0px 0px;
+    }
+    .health{
+        padding-top: 4px;
+    }
+              
+    #nopad{
+        padding-left: 0px;
+    }
+    .unknow {
+        padding-bottom: 78px;
+    }
+    .buildh1{
+        padding-right: 2px;
+    }
+    .leftbar{
+        height: 191.8px;
+    }
+    .themaindata {
+        display: flex;
+        width: 100%;
+        gap: 73px;
+        margin-top: 32px;
+    }
+    #datasf{
+        margin-left: 47px;
+    } 
+}   
+@media(min-width:1183px){
+    #Solutions{
+        display:flex;
+    }  
+    
+}                          
+@media(min-width:1264px){
+    .mainbanner{
+        padding: 0px 4.5%;
+    }
+    #Pricing{
+        display: flex;  
+    }       
+    .content1{
+        transform: translatex(8px);
+    } 
+    .imagebanner{
+        padding: 96px 66px;
+    }
+    .solutions {
+        padding: 96px 64px;
+    }
+    #helos {
+        padding: 96px 64px;
+    }
+    .normalrow {
+        padding: 0px 68px;
+    }  
+    .rowmain {
+        width: 105%;
+    }
+    .house img {
+        width: 136px;
+        aspect-ratio: 2.33333 / 1;
+    }
+    .imghouse{
+       width: 136px;
+    }
+    .asearchmain{
+        display: flex;
+        margin-right: -4px;
+    }
+    #prohai {
+        padding: 17px 9px 16px 9px;
+    }
+    .normalasure{
+        margin: 12px 8px 1px 8px;
+    }
+    .signin span{
+        padding-top: 2px;
+    }
+    .makeyou{
+        padding-right: 60px;
+    }
+    .getapp{
+        width: 90%;
+        
+        padding: 24px 4px;
+        margin: 0px auto;
+    }
+    .customerone {
+        padding: 96px 4.5%;
+        
+    }
+    .thehouse{
+        max-width: 1000px;
+        
+    }
+    .chat{
+        padding: 32px 4.5%;
+    }
+    .themainhouse{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .customer {
+        padding: 72px 62px;
+    }
+    .rows {
+        margin-top: 34px;
+    }
+    .itdivimg{
+        padding: 0px 5.7%;
+    }
+    .normalrow{
+        padding: 0px 5.2%;
+    }
+    #helos{
+        padding: 96px 5%;
+    }
+    .solutions{
+        padding: 96px 5%;
+    }
+    .imagebanner{
+        padding: 96px 5.2%;
+    }
+    .tabfeatures{
+        padding: 0px 4.5%;
+
+    }
+    .customer {
+        padding: 72px 5%;
+    }
+}                      
+ 
+@media(min-width:1364px){  
+    #Partners{
+        display:flex;
+    }
+}
+@media(min-width:1400px){  
+    #prohais{
+        display: flex;
+        padding: 17px 0px 0px 16px;
+        transform: translateX(6px);
+    }
+    .itdivimg {
+        padding: 0px 6.7%;
+    }
+    .asearch{
+        transform: translateX(-4px);
+    }
+    .themaine{
+        margin-bottom: -24px;
+    }
+    .makeyou {
+        padding-right: 64px;
+    }
+    .themaindata {  
+        gap: 94px;
+    }     
+}
+@media(min-width:1440px){
+    .yourai h1 {
+        font-size: 48px;
+        line-height: 56px;
+    }
+    .makeyou{
+        font-size: 20px; 
+        line-height: 32px;
+        padding-right: 59px;
+    }
+    .mainbanner{
+        height: 631px;
+    }
+    .server{
+        aspect-ratio: 0;
+    }
+    .headh2{
+        font-size: 32px;
+        letter-spacing: -1.6px;
+        line-height: 40px;
+    }
+    .windows h3 {
+        font-size: 32px;
+        letter-spacing: -1.6px;
+        line-height: 40px;
+    }
+    .subdata{
+        display: flex;
+        flex-direction: row;
+    }
+    .noimg {
+        height: 314px;
+    }
+    .theonlysecond{
+        height: 644px;
+        justify-content: center;
+        align-items: center;
+    }
+    .themainsecond{
+        display: flex;
+        align-items: flex-end;
+        
+    }
+    .lastfooter {
+    
+        padding: 29px 5% 16px;
+    }
+    .windowserver{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .health { 
+        padding-top: 6px;
+    }
+    .getbtnh1{
+        transform: translateY(-2px);
+    }
+    .aih2{ 
+        font-size: 20px; 
+        line-height: 28px;
+    }
+    .data2 {
+        font-size: 20px; 
+        line-height: 28px;
+    }
+    .data1{
+        font-size: 20px; 
+        line-height: 28px;
+    }
+    
+    .buildimg2 img{
+        height: 630px;
+    }
+    .rowsh1 h3{
+        font-size: 32px;
+        letter-spacing: -1.6px;
+        line-height: 40px;
+    }
+    .thecolh2{
+        
+        font-size: 40px;
+        letter-spacing: -2px;
+        line-height: 48px;
+    }
+    .optimizeh1{
+        font-size: 24px;
+        letter-spacing: -1.2px;
+        line-height: 32px;
+    }
+    .golbalh1{
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -2.4px;
+    }
+    .golbalh2{
+        font-size: 20px; 
+        line-height: 28px;
+        letter-spacing: -0.6px;
+    }
+    .dhp{
+        font-size: 24px;
+        letter-spacing: -1.2px;
+        line-height: 32px;
+    }
+    .subsh1 h1{
+          
+        font-size: 40px;
+        letter-spacing: -2px;
+        line-height: 48px;
+    }
+    .cardh1{
+        font-size: 20px; 
+        line-height: 28px;
+        letter-spacing: -0.6px;
+    }
+    .unknow{
+        padding-bottom: 83px;
+    }
+   #More{
+    display: none;
+   }
+   #Resources{
+    display: flex;
+    }
+    .rows {
+    margin-top: 30px;
+    }
+    .itdivimg {
+        padding: 0px 4.5%;
+    }
+    .normalrow {
+        padding: 0px 6.7%;
+    }
+    .rowmain{
+        height: 501px;
+        width: 95%;
+    }
+
+}
+@media(min-width:1454px){
+    .themaintoparow{
+        display: none;
+    }
+    
+    .getbtnh1 {
+        transform: translateY(0px);
+    }
+}  
+@media(min-width:1860px){
+    .mainbanner{
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    }
+    .rows{
+        max-width: 1328px;
+        margin-left: -16px;
+    }
+    .chat{
+        max-width: 1514px;
+        background-image: none;
+    }
+    .chatmain{
+        background-image: linear-gradient(131deg, rgb(0, 50, 89) 0%, rgb(9, 31, 44) 50.25%, rgb(0, 66, 117) 100%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .tabfeatures{
+        max-width: 1514px;
+        margin: 0px auto;
+    }
+    .container{
+        max-width: 1320px;
+        justify-content: center;
+    }
+    .imagebanner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .subh1 {
+        font-size: 20px; 
+        line-height: 28px;
+        letter-spacing: -0.6px;
+    }
+   .solutionsmain{
+    display: flex;
+    justify-content: center;
+    }
+    .solutions  {
+      max-width: 1514px;
+       
+    }
+    .arows{
+        max-width: 1320px;
+    }
+    .normalrow{
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .themaintoparow{
+        display: none;
+    }
+    .imgagelaptop{
+        max-width: 1450px;
+    }
+    .themain{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .spacecustomer{
+        max-width: 1328px;
+    }
+    .customer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+        
+    .customerone{
+            max-width: 1515px;
+        }  
+    .subgap{
+        width: 1315px;
+    }
+    .getapp{
+        display: flex;
+        justify-content: center;
+    }
+    .newheader{
+        max-width: 1600px;
+        padding: 0px;
+    } 
+    .headernews {
+        display: flex;
+    }
+    .mimage {
+        padding: 16px 6px 16px 10px;
+        margin-top: 0px;
+    }
+    .abar span{
+        margin-left: 23px;
+        padding: 14px 6px 17px 10px;
+    }
+    .producttag {
+        padding: 15px 14px 17px 19px;
+    }
+    .producttags1{   
+        padding: 15px 12px 17px 19px;
+    }
+    .asearch {
+        padding: 20px 12px 17px 10px;
+         margin-right: 6px;   
+    }
+    .normalasure {
+        margin: 12px 10px 1px 10px;
+        width: 145px;
+    }
+    .asearchmain{
+        transform: translateX(-4px);
+    }
+    #prohai {
+        padding: 17px 13px 16px 13px;
+    } 
+    .signin{
+        margin-top: 12px;
+        margin-right: 10px;
+        margin-left: 12px;
+    }
+    .unknow {
+        padding-bottom: 82px;
+    }
+}
+      
